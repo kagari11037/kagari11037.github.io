@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.kagari11037.twa",
-        "sha256_cert_fingerprints": ["28:CC:F6:FE:08:05:06:31:4C:DB:0E:29:77:9A:33:4D:6F:E8:98:C0:CB:C0:BB:9F:20:4E:C4:1E:58:85:BA:D7"]
-      }
-    }]
