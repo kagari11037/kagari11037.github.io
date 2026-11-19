@@ -1,0 +1,47 @@
+- generic:
+  - generic [ref=e1]:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]: API usage demo
+        - button "Close sidebar" [ref=e6] [cursor=pointer]
+      - button "New chat" [ref=e9] [cursor=pointer]
+      - button "Settings" [ref=e16] [cursor=pointer]
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: How can I help you?
+        - generic [ref=e27]:
+          - textbox "Enter a message" [active] [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - button "DeepThink" [ref=e33] [cursor=pointer]
+              - button "Search" [ref=e39] [cursor=pointer]
+            - generic [ref=e43]:
+              - button "Voice input" [ref=e45] [cursor=pointer]
+              - button "Upload files" [ref=e49] [cursor=pointer]
+              - button "Send" [disabled] [ref=e52]
+  - dialog "Settings" [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]: Settings
+      - button "Close" [ref=e59] [cursor=pointer]
+    - generic [ref=e63]:
+      - tablist [ref=e64]:
+        - tab "General" [ref=e65] [cursor=pointer]
+        - tab "Parameters" [ref=e69] [cursor=pointer]
+        - tab "Data" [selected] [ref=e74] [cursor=pointer]
+      - tabpanel [ref=e78]:
+        - generic [ref=e80]:
+          - generic [ref=e81]: Enter an API Key to get started
+          - textbox "Enter API Key" [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: Import chat history
+            - generic [ref=e87]: Importing chat history replaces all local chats and attachments. Supports ZIP files exported from DeepSeek.
+          - button "Upload" [ref=e88] [cursor=pointer]
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: Export all chats
+            - generic [ref=e95]: Includes all chat history and locally stored images. Other attachments retain file details only. Your API Key is not included.
+          - button "Download" [disabled] [ref=e96]
+        - generic [ref=e99]:
+          - generic [ref=e100]: Delete all chats
+          - button "Delete" [ref=e102] [cursor=pointer]
