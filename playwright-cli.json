@@ -1,9 +1,0 @@
-{
-  "browser": {
-    "launchOptions": {
-      "chromiumSandbox": false,
-      "args": ["--no-sandbox", "--disable-setuid-sandbox"]
-    }
-  },
-  "outputMode": "stdout"
-}
